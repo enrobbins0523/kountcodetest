@@ -1,0 +1,15 @@
+mode: set
+github.com\enrobbins0523\kountcodetest\main.go:9.12,14.2 4 0
+github.com\enrobbins0523\kountcodetest\main.go:16.65,21.15 5 1
+github.com\enrobbins0523\kountcodetest\main.go:24.2,24.16 1 1
+github.com\enrobbins0523\kountcodetest\main.go:28.2,28.16 1 1
+github.com\enrobbins0523\kountcodetest\main.go:21.15,23.3 1 1
+github.com\enrobbins0523\kountcodetest\main.go:24.16,27.3 2 0
+
+goos: windows
+goarch: amd64
+pkg: github.com/enrobbins0523/kountcodetest
+BenchmarkCreateAvatarFemale-8                 50          33940910 ns/op
+BenchmarkCreateAvatarMale-8                   50          33419984 ns/op
+PASS
+ok      github.com/enrobbins0523/kountcodetest  4.289s
